@@ -2,6 +2,7 @@ import usb_hid
 from rgbkeypad import RGBKeypad
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
+from adafruit_hid.consumer_control_code import ConsumerControlCode    # Used for media control
 from random import randint
 
 KEYBOARD_MAP = {
