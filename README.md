@@ -57,23 +57,24 @@ Now Copy the `lib` directory and `main.py` file to the Pico so we have the follo
 
 If you wish you can use Thonny to push your code in `main.py` to the Pico 🙂
 
-## Keyboard Mapping
-The keyboard mapping used to control OBS Studio is is found within the `main.py` file.  When the button on the Pico RGB Keypad are pressed the corresponding key combination is sent to your PC/Laptop:
+## Keypad Mapping
 
+
+![pico rgb keypad map boundings](/images/Layout.png)
 | Pico Button  	| Key Combination   	|
 |---	        |---	                |
-| 0   	        | Left Ctrl + KeyPad 1  |
-| 1  	        | Left Ctrl + KeyPad 2  |
-| 2  	        | Left Ctrl + KeyPad 3  |
-| 3  	        | Left Ctrl + KeyPad 4  |
+| 0   	        | Previous Track  |
+| 1  	        | Play / Pause  |
+| 2  	        | Next Track  |
+| 3  	        | Volume up  |
 | 4  	        | Left Ctrl + KeyPad 5  |
 | 5  	        | Left Ctrl + KeyPad 6  |
 | 6  	        | Left Ctrl + KeyPad 7  |
-| 7  	        | Left Ctrl + KeyPad 8  |
+| 7  	        | Volume Down |
 | 8  	        | Left Ctrl + KeyPad 9  |
 | 9  	        | Left Ctrl + KeyPad 0  |
 | A  	        | Left Alt + KeyPad 1   |
-| B  	        | Left Alt + KeyPad 2   |
+| B  	        | Volume Mute  |
 | C  	        | Left Alt + KeyPad 3   |
 | D  	        | Left Alt + KeyPad 4   |
 | E  	        | Left Alt + KeyPad 5   |
